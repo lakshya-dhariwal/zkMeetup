@@ -48,8 +48,10 @@ function Event() {
     return data;
   }
   const githubZk = async () => {
+    const { error } = await supabase.auth.signOut();
     if (!auth) return await signInGithub();
-    const user_name = auth.user.user_metadata.user_name;
+    console.log(auth.user);
+    const user_name = auth?.user?.user_metadata.user_name;
     const { data } = await axios.get(
       `https://api.github.com/users/${user_name}/repos`
     );
@@ -266,6 +268,7 @@ function Event() {
                     .update({ allowlist: [address, ...event.allowlist] })
                     .match({ id: params.id });
                   console.log({ data });
+                  window.location?.reload();
                 }}
               >
                 <ImTicket /> <h1 className="ml-2">Enter Event</h1>

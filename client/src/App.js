@@ -51,6 +51,9 @@ function App() {
             <Route path="/event/:id">
               <Event />
             </Route>
+            <Route path="/test/42069">
+              <Meet />
+            </Route>
           </div>
         </ConnectKitProvider>
       </WagmiConfig>
