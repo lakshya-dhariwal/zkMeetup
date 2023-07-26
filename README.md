@@ -1,4 +1,4 @@
-![image](https://github.com/lakshya-dhariwal/zkMeetups/assets/57823363/fa0ad6a0-afba-4a66-8d55-755143c44bdd)# zkMeetup - Virtual meetups the web3 way
+# zkMeetup - Virtual meetups the web3 way
 
 ### zkMeetup is a privacy-focused gated event hosting platform 
 
