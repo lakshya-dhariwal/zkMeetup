@@ -6,7 +6,7 @@ We utilize zk proofs for user eligibility. Included with features such as allows
 
 ![product flow](https://github.com/lakshya-dhariwal/zkMeetups/assets/57823363/ad9c3b6b-a5ac-4ebe-b190-e20f67d98b7b)
 
-[Demo Videp](https://vimeo.com/823836652)
+### [A demo is worth a thoiusand words](https://vimeo.com/823836652)
 
 
 ### Features
