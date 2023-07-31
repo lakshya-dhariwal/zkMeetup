@@ -19,7 +19,6 @@ function Hosting({ events }) {
                     event={event}
                     buttonText="See Applicants"
                     buttonOnClick={() => {
-                      console.log("click");
                       setLocation(`/event/${event.id}`);
                     }}
                   />

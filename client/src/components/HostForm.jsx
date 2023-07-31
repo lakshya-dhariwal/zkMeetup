@@ -31,9 +31,6 @@ function HostForm({ scrollRef }) {
     setIdNo(num);
     return num;
   }
-  useEffect(() => {
-    console.log({ idNo });
-  }, [idNo]);
 
   const { config: multipleAddConfig } = usePrepareContractWrite({
     ...AllowListConfig,
