@@ -8,7 +8,7 @@ import { WagmiConfig, createClient } from "wagmi";
 import { Link, Route } from "wouter";
 import Home from "./pages/index";
 import Navbar from "./components/Nav";
-import Event from "./pages/Event";
+import Event from "./pages/eventpage";
 import Dashboard from "./pages/dashboard";
 import Host from "./pages/host";
 import { useAccount } from "wagmi";
